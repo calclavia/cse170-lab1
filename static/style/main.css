@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
 
 /* Reset */
 
@@ -13,7 +13,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
 }
 
 .title {
@@ -21,6 +22,11 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 72px;
 }
 
-.content {
+.tagline {
+    text-align: center;
+}
 
+.container {
+  margin-left: 15%;
+  margin-right: 15%;
 }
